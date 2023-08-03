@@ -33,3 +33,5 @@ echo "hostname is: $HOSTNAME"
 extension=".txt"
 echo "Files with extension $extension:"
 ls *$extension
+# don't forget to change the permissions of this script to make it executable by chmod u+x script_name
+# run it by using sh script_name
